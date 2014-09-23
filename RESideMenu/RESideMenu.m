@@ -29,7 +29,6 @@
 
 @interface RESideMenu ()
 
-@property (strong, readwrite, nonatomic) UIImageView *backgroundImageView;
 @property (assign, readwrite, nonatomic) BOOL visible;
 @property (assign, readwrite, nonatomic) BOOL leftMenuVisible;
 @property (assign, readwrite, nonatomic) BOOL rightMenuVisible;

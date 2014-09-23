@@ -47,6 +47,7 @@
 
 @property (assign, readwrite, nonatomic) NSTimeInterval animationDuration;
 @property (strong, readwrite, nonatomic) UIImage *backgroundImage;
+@property (strong, readwrite, nonatomic) UIImageView *backgroundImageView;
 @property (assign, readwrite, nonatomic) BOOL panGestureEnabled;
 @property (assign, readwrite, nonatomic) BOOL panFromEdge;
 @property (assign, readwrite, nonatomic) NSUInteger panMinimumOpenThreshold;
